@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <h1 class="text-center mt-3 pb-5">Trains on time</h1>
+    <h1 class="text-center mt-3 pb-5">Trains leaving today</h1>
     <div class="container">
         <div class="trains-list">
             @foreach ($trains as $train)
