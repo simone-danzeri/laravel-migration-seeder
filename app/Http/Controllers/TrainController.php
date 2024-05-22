@@ -15,3 +15,4 @@ class TrainController extends Controller
         return view('home', $data);
     }
 }
+
